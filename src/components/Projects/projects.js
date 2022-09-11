@@ -21,7 +21,7 @@ const Projects = () => {
         <div className='projects-card'>
           <div className='row'>
             <div className='column left'>
-              <video className='video' autoPlay loop muted src={gotGainsVid}/>
+              <video className='video'  loop muted src={gotGainsVid}/>
             </div>
             <div className='column right'>
               <h2>Got Gains</h2>

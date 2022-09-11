@@ -29,6 +29,14 @@
     -->
     <title>React App</title>
     <script src="https://kit.fontawesome.com/4ff592364e.js" crossorigin="anonymous"></script>
+    <script>
+      window.onload = addAutoplay();
+      var windowLocation = document.getElementById("app-vid")
+      function addAutoplay() {
+      if(window.innerWidth >992){
+        videoLocation.setAttribute("autoplay","");
+      };
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

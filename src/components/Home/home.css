@@ -54,12 +54,14 @@
         justify-content: center;
         display: flex;
         text-align: start;
-        margin:250px auto;
+        margin:45% auto;
   
     }
 
     .home-info-container h1{
         font-size: 32px;
+        padding-top: 50px;
+        padding-bottom:50px;
         
     }
     .column {
