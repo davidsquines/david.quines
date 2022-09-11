@@ -11,11 +11,7 @@ const Home = () => {
       <div className='home-info-container'>
     
         <h1>Hi, <br/> I'm David Quines, <br/>
-          <TextLoop interval={2400} className="text-loop">
-            <span>Fullstack Engineer</span>
-            <span>UI Designer</span>
-            <span>Problem Solver</span>
-          </TextLoop>
+        <span>Fullstack Engineer</span>
         </h1>
         <ul className='home-icon-list'>
           <li><a href="https://github.com/davidsquines" target="_blank"><FaIcons.FaGithub/></a></li>

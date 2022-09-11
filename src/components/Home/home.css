@@ -13,13 +13,14 @@
     justify-content: space-between;
  
 }
-.home-info-container h1{
-    font-size: 70px;
-}
-.text-loop{
+.home-info-container span{
     color: #0088FF;
     font-weight: bold;
 }
+.home-info-container h1{
+    font-size: 70px;
+}
+
 .home-icon-list{
     list-style-type: none;
     color: white;
