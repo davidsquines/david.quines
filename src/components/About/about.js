@@ -3,13 +3,13 @@ import profilePic from "../../assets/images/profilePic.jpg"
 import './about.css'
 import {Link} from "react-router-dom";
 import * as FaIcons from "react-icons/fa";
-import Fade from 'react-reveal/Fade';
+
 const About = () => {
     return (
         <>
             <div className='about-wrapper'>
                 <div className='about-content-container'>
-                    <Fade left>
+
                         <div className='row'>
                             <div className='column text'>
                                 <img src={profilePic} className='profile-pic'/>
@@ -26,8 +26,7 @@ const About = () => {
                             </div>
                         </div>
 
-                    </Fade>
-                    <Fade right>
+        
                     <div className='row'>
                         <div className='column text'>
                             <h1>Education</h1>
@@ -49,8 +48,6 @@ const About = () => {
                             </div>
                             
                         </div>
-
-                    </Fade>
                     
                     
                 </div>

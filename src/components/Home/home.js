@@ -3,7 +3,7 @@ import './home.css'
 import TextLoop from "react-text-loop";
 import * as FaIcons from "react-icons/fa";
 import resume from "../../assets/docs/DavidQuinesResume9-6.pdf"
-import laptop from "../../assets/images/laptop.png"
+
 
 const Home = () => {
   return (

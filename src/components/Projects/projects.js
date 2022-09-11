@@ -7,18 +7,17 @@ import chorosx from "../../assets/videos/chorosX.mp4"
 import * as FaIcons from "react-icons/fa";
 import dAttack from "../../assets/images/dictattack.png"
 import loadingPic from "../../assets/images/comingsoon.jpg"
-import Fade from 'react-reveal/Fade';
+
 
 
 
 const Projects = () => {
   return (
     <div className="projects-wrapper">
-      <Fade left>
+
       <h1 style={{fontSize: "35px", color:"#FFFFFF"}}>Projects</h1>
       <p style={{fontSize: "21px", color:"#FFFFFF"}}>Here are some of the projects I have developed</p>
-      </Fade>
-      <Fade right>
+     
         <div className='projects-card'>
           <div className='row'>
             <div className='column left'>
@@ -33,8 +32,7 @@ const Projects = () => {
           </div>
         </div>
 
-      </Fade>
-      <Fade left>
+ 
         <div className='projects-card'>
           <div className='row'>
             <div className='column right'>
@@ -48,8 +46,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-      </Fade>
-      <Fade right>
+
         <div className='projects-card'>
           <div className='row'>
             <div className='column left'>
@@ -63,10 +60,6 @@ const Projects = () => {
             </div>
           </div>
         </div>
-      </Fade>
-      
-     
-      <Fade left>
         <div className='projects-card'>
           <div className='row'>
             <div className='column right'>
@@ -81,8 +74,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-      </Fade>
-      <Fade right>
+
         <div className='projects-card'>
           <div className='row'>
             <div className='column left'>
@@ -96,8 +88,6 @@ const Projects = () => {
             </div>
           </div>
         </div>
-
-      </Fade>
       
     </div>
   
