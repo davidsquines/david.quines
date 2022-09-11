@@ -50,6 +50,12 @@
 
 
 @media screen and (max-width: 760px){
+    .home-info-container{
+        justify-content: center;
+        display: flex;
+        text-align: start;
+        margin:0 auto;
+    }
 
     .home-info-container h1{
         font-size: 32px;
