@@ -1,0 +1,136 @@
+.menu-bars {
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  color: #ffff;
+  background-color: #24292E;
+  cursor: pointer;
+  transition:  0.6s ease-in-out;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+  font-size: 1.2rem;
+  
+  
+}
+.navigation {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  padding: 0.5rem 0rem;
+  color: white;
+  z-index: 1;
+}
+.logo{
+  text-decoration: none;
+  color: white;
+  font-size: 32px;
+  margin-left: 2.5rem;
+}
+
+.nav-menu{
+  margin-left: auto;
+  margin-right: 2.5rem;
+}
+.nav-menu ul{
+  display: flex;
+  padding: 0;
+ 
+
+}
+.nav-menu li{
+  list-style-type: none;
+  margin: 0 1rem;
+
+}
+
+.nav-menu a{
+  color: #fff;
+  text-transform: lowercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  position: relative;
+  opacity: .7;
+}
+
+.nav-menu a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #0088FF;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.nav-menu a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+.nav-menu a:active{
+  color:#0088FF;
+}
+
+.button{
+  border-radius: 50px;
+    background: #B0A8B9;
+    white-space: nowrap;
+    padding: 10px 22px;
+    color: black;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+  
+}
+
+@media screen and (max-width: 760px){
+  .menu-bars{
+    display: block;
+  }
+
+  .nav-menu ul{
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: #24292E;
+    display: none;
+   
+  }
+
+  .nav-menu li{
+    text-align: center;
+    margin: 0;
+  }
+
+  .nav-menu li a {
+    color: white;
+    width: 100%;
+    padding: 1.5rem 0;
+    text-transform: uppercase;
+    opacity: 1;
+
+  }
+
+  .nav-menu.expanded ul{
+    display: block;
+  }
+  
+}
+
+
+ 

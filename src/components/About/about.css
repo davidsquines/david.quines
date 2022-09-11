@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+.about-wrapper{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top : 50px;
+    
+
+    
+}
+.about-content-container{
+    justify-content: center;
+    max-width: 75%;
+    margin: auto auto 100px auto;
+    display: grid;
+    grid-template-columns: 1fr; 
+    align-items: center;
+    grid-gap: 16px;
+    padding: 0 10px;
+    top: 50%;
+    left: 50%;
+}
+.profile-pic{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.text{
+    text-align: center;
+    color: white;
+
+    
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+
+    margin-bottom: 20px;
+   
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+
+a{
+    color: #0088FF;
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover{
+    color: #0088FF;
+}
+.icon-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+
+}
+.icon-list li{
+    display: inline-block;
+    margin: 2px;
+    font-size: 32px;
+    padding: 20px;
+    color: #0088FF
+}
+
+.awards-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.awards-list li{
+    margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        border-bottom: #B0A8B9 4px groove;
+    }
+
+    .about-wrapper{
+        width: 100%;
+    }
+
+
+}
